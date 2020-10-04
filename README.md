@@ -11,4 +11,4 @@ Train and test datasets should be in csv formats.
 After the above steps, you should have four files in total: `<preprocessed-train-csv>`, `<preprocessed-test-csv>`, `<freqdist>`, and `<freqdist-bi>` which are preprocessed train dataset, preprocessed test dataset, frequency distribution of unigrams and frequency distribution of bigrams respectively.
 
 ### Analysing the data
-Run `lstm.py`. Will save models for each epock in `./models/`. (Please make sure this directory exists before running `lstm.py`).
+Run `lstm.py`. This will save models for each epock in `./models/`. (Please make sure this directory exists before running `lstm.py`).
